@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for Ma'am Roan na mayaman </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Dancing+Script:wght@600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <div class="stars"></div>
+  <div class="snow" id="snow" aria-hidden="true"></div>
+  <div class="moon"></div>
+
+  <div class="envelope-wrapper">
+    <div class="envelope">
+      <div class="flap"></div>
+      <div class="wax-seal">DZ</div>
+      <h1 class="envelope-title">Hi, Ma'am Roan!</h1>
+      <p class="envelope-subtitle">from Darielle</p>
+
+      <button class="open-btn" id="openCardBtn" type="button">
+        ✦ Open the Letter ✦
+      </button>
+    </div>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="modal-backdrop" id="ecardModal" aria-hidden="true">
+    <div class="greeting-card" role="dialog" aria-modal="true" aria-label="Letter for Ma'am Roan">
+
+      <div class="card-inner">
+        <h2 class="salutation">Dear Ma'am Roan,</h2>
+
+        <div class="message-body">
+          <p>
+            Hi, Ma'am Roan! Thank you po for everything. I know po that I'm not very good in your class, actually, in all my IT-related subjects. But I'm trying my best, even though sometimes I feel like my best isn't enough, and I know it doesn't really show.
+          </p>
+
+          <p>
+            Ma'am, hindi po namin kayo iniiwasan kahit po sinabi niyo po samin anong section hawak niyo, nag 2A po kami kasi po ayon po yung mas magandang sched pero yon natuwa po kami na kayo din po pala may hawak ng 2A.
+          </p>
+
+          <p>
+            To be honest po, I'm a little scared of you because I know you have high expectations of your students. I understand naman po that you only expect those things because you want us to do better, and I'm sorry if I keep falling short of your expectations.
+          </p>
+
+          <p>
+            I don't want to say this just so you would pity me, but since you mentioned that this could be a confession or simply a letter, I'll say it anyway.
+          </p>
+
+          <p>
+            I recently lost my father, and ever since then, I've been struggling more than I can explain. I feel like my mind hasn't been working the way it used to. I find it harder to concentrate, understand lessons, and keep up with everything. Sometimes, even when I want to do better, I just can't seem to get myself together. I feel lost, overwhelmed, and honestly, I don't really know how to navigate things anymore.
+          </p>
+
+          <p>
+            I'm not saying this to make excuses for my shortcomings. I just want you to understand that there's more going on than what you see in class. I'm still trying, even on days when it doesn't seem like I am.
+          </p>
+
+          <p>
+            But lately, I've noticed how you've been warming up to my classmates, and somehow, it gives me comfort. A kind of comfort that makes me feel like I no longer have to be scared. That it's okay to laugh and smile in your class, and that I don't always have to worry about making mistakes or being used as an example of someone who didn't study the lesson.
+          </p>
+
+          <p>
+            During the short time I've known you, I've come to realize that everything you've been doing has been for our own good all along, not for your ego. You simply want us to learn, improve, and become better students.
+          </p>
+
+          <p>
+            So, thank you, Ma'am. Thank you for everything. In the short time we've spent together, what started with fear ended with a feeling of comfort and happiness. I never expected that I would come to feel this way, but I'm genuinely grateful that I got to experience it.
+          </p>
+
+          <p>
+            I hope this isn't goodbye, Ma'am. Hopefully, it's just a see you around. We will carry everything you've taught us as we move forward to the higher years. Please wish us luck!
+          </p>
+
+          <p>
+            Advance Merry Christmas and Happy New Year to my favorite couple, Sir Alex and Ma'am Roan! Thank you both for everything.
+          </p>
+        </div>
+
+        <div class="sign-off">
+          <p class="signature">Zeane Cruz,</p>
+          <p class="signed-name">Darielle</p>
+        </div>
+
+        <div class="card-footer">
+          <button class="close-btn" id="closeCardBtn" type="button">Keep the message ✦</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
